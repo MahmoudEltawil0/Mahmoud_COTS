@@ -5,7 +5,13 @@
 #include "DIO_interface.h"
 #include "DIO_prv.h"
 #include "DIO_reg.h"
-
+/**
+ * @brief
+ * @param Copy_u8Port
+ * @param Copy_u8Pin
+ * @param Copy_u8Direction
+ * @return
+ */
 uint8 DIO_u8SetPinDirection(uint8 Copy_u8Port, uint8 Copy_u8Pin, uint8 Copy_u8Direction)
 {
 	uint8 Local_u8ErrorState = OK;
